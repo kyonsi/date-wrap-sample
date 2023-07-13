@@ -1,4 +1,4 @@
-import { DateWrapper } from '../libs/date-wrapper'
+import { DateWrapper } from '../../libs/date-wrapper'
 
 export default function Home() {
     const date = new DateWrapper()

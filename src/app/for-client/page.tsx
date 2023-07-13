@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { DateWrapper } from "../libs/date-wrapper";
+import { DateWrapper } from "../../libs/date-wrapper";
 
 export default function Home() {
   const [date, setDate] = useState<DateWrapper>();
